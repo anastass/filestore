@@ -1,0 +1,22 @@
+{
+  "name": "anastass/filestore",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alexandre Anastassov",
+      "email": "a.anastassov@iaea.org"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^1.24"
+  },
+  "require-dev": {
+    "mikey179/vfsStream": "^1.6",
+    "phpunit/phpunit": "5.7.27"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyLog\\": "src/MyLog"
+    }
+  }
+}
